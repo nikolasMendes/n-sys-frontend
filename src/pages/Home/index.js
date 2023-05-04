@@ -6,7 +6,7 @@ import fechamento from "../../images/fech.png.png";
 export function Home() {
   return (
     <>
-      <divc class="flex bg-slate-700 h-screen w-screen">
+      <div class="flex bg-slate-700 h-screen w-screen">
         <div class=" flex flex-col items-center w-72 h-screen bg-slate-700 border-r-4 border-purple-700">
           <div class="flex flex-col items-center  bg-center  mt-10  border border-purple-700 rounded-full">
             <img class="p-0 m-5 w-20 h-20" src={logo} />
@@ -30,7 +30,7 @@ export function Home() {
           <div class="border-2 col-span-3 row-span-1 ">ITEM6</div>
           <div class="border-2 col-span-3  row-span-1">ITEM7</div>
         </div>
-      </divc>
+      </div>
     </>
   );
 }

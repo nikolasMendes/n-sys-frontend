@@ -23,7 +23,7 @@ export function Login() {
       const response = await api.post("/user/login", form);
       setLoggedInUser(response.data);
 
-      localStorage.setItem("loggedInUser", JSON.stringify(response.data));
+      localStorage.setItem("LoggedInUser", JSON.stringify(response.data));
 
       navigate("/home");
     } catch (err) {
@@ -50,7 +50,7 @@ export function Login() {
               class="border border-purple-800 rounded-full"
             />
           </div>
-          <div class=" text-purple-300 flex flex-col my-5 drop-shadow-xl">
+          <div class="text-purple-300 flex flex-col my-5 drop-shadow-xl">
             <label htmlFor="input-password">Senha:</label>
             <input
               id="input-password"
