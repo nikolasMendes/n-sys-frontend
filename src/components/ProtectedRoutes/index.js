@@ -10,7 +10,7 @@ export function ProtectedRoutes(props) {
 
   useEffect(() => {
     if (!parsedUser) {
-      navigate("/login");
+      navigate("/");
     }
   }, []);
 
